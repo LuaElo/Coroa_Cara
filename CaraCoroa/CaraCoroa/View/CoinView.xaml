@@ -29,7 +29,7 @@
              WidthRequest="150"
              x:Name="rolarButton"
              Text="Lançar Moeda" 
-             Clicked="rolarButton_Clicked"
+             Command="{Binding JogarCommand}"
          />    
 
     </VerticalStackLayout>

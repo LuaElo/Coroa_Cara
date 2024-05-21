@@ -1,4 +1,5 @@
 using CaraCoroa.Models;
+using CaraCoroa.ViewModels;
 
 namespace CaraCoroa.View;
 
@@ -8,7 +9,7 @@ public partial class CoinView : ContentPage
 	{
 		InitializeComponent();
         escolha.SelectedIndex = 0;
-		this.BindingContext = new CoinViewModel();
+		BindingContext = new CoinViewModels();
     }
 
 	private void CoinFlipButton_Clicked(object sender, EventArgs e)
